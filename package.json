@@ -1,0 +1,38 @@
+{
+  "name": "@aotimme/amplify-rust-function-runtime-provider",
+  "version": "0.1.0",
+  "description": "Provides functionality related to functions in Rust on AWS",
+  "author": "aotimme",
+  "license": "Apache-2.0",
+  "main": "lib/index.js",
+  "keywords": [
+    "aws",
+    "amplify",
+    "lambda",
+    "rust"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf lib tsconfig.tsbuildinfo"
+  },
+  "dependencies": {
+    "amplify-cli-core": "2.4.3",
+    "amplify-function-plugin-interface": "1.9.2",
+    "archiver": "^5.3.0",
+    "execa": "^5.1.1",
+    "express": "^4.17.1",
+    "fs-extra": "^8.1.0",
+    "glob": "^7.1.6",
+    "portfinder": "^1.0.25",
+    "which": "^2.0.2"
+  },
+  "devDependencies": {
+    "@types/archiver": "^5.1.1",
+    "@types/express": "^4.17.13",
+    "@types/fs-extra": "^9.0.13",
+    "@types/node": "^12.12.6",
+    "@types/semver": "^7.1.0",
+    "@types/which": "^1.3.2",
+    "typescript": "^4.5.2"
+  }
+}
