@@ -1,7 +1,7 @@
 {
   "name": "@aotimme/amplify-rust-function-runtime-provider",
   "version": "0.1.0",
-  "description": "Provides functionality related to functions in Rust on AWS",
+  "description": "An AWS Amplify plugin to use Rust as a Lambda function runtime",
   "author": "aotimme",
   "license": "Apache-2.0",
   "main": "lib/index.js",
@@ -11,6 +11,9 @@
     "lambda",
     "rust"
   ],
+  "homepage": "https://github.com/aotimme/amplify-rust-function-runtime-provider",
+  "repository": "aotimme/amplify-rust-function-runtime-provider",
+  "bugs": "https://github.com/aotimme/amplify-rust-function-runtime-provider/issues",
   "scripts": {
     "build": "tsc",
     "clean": "rm -rf lib tsconfig.tsbuildinfo"
